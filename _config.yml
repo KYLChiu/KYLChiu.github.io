@@ -22,13 +22,13 @@ repository               : "kylchiu/kylchiu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : # ""
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : # ""
   location         : "Earth"
   employer         : "Quantiative Developer @ Man AHL"
   uri              : # URL
-  email            : "kchiu1997@example.org" 
+  email            : "kchiu1997@gmail.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -90,7 +90,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : dark # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
