@@ -27,6 +27,4 @@ print(g(1))
 ```
 What goes wrong, why does it go wrong and how would you fix it without changing the (non-default) function signature of `g`? 
 
----
-
 
