@@ -12,9 +12,7 @@ std::cout << "Hello World!\n";
 ```
 ---
 
-## Hi!
-
-I'm a Python/C++ quantitative developer with interests spanning across software engineering, mathematics and finance. I hold a bachelors degree in Mathematics from Warwick University and a masters degree in Mathematical and Computational Finance from Oxford University.
+Hi! I'm a Python/C++ quantitative developer with interests spanning across software engineering, mathematics and finance. I hold a bachelors degree in Mathematics from Warwick University and a masters degree in Mathematical and Computational Finance from Oxford University.
 
 Stay tuned to hear occasional rants about how Python is so much easier to develop in compared to C++, or how much faster C++ is compared to Python (looking at you, GIL!). I'll probably sporadically (or rather, stochastically) throw in a volatility related topic as well.
 
