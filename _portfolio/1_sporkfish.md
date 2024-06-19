@@ -1,11 +1,8 @@
 ---
 title: "Sporkfish"
-excerpt: "a numba powered Python chess engine backed by recursive game theory algorithms"
+excerpt: "a numba powered Python chess engine backed by recursive game theory algorithms."
 collection: portfolio
----
-
-<a href="https://github.com/KYLChiu/sporkfish"><i class="fab fa-fw fa-github icon-pad-right"></i>Check it out!</a>
-
+link: "https://github.com/KYLChiu/sporkfish"
 ---
 
 Sporkfish is a Python-based chess engine. Chess programming techniques, although numerous, are not always well-documented. This project aims to bridge that gap by offering clear, working, and accessible code, providing a resource for developers interested in understanding and implementing chess engine algorithms.
