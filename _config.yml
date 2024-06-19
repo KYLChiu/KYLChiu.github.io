@@ -25,7 +25,7 @@ author:
   name             : "Kelvin Chiu"
   pronouns         : # "he/him" # example: "she/her"  
   bio              : "Quant Developer"
-  employer         : "Man AHL"
+  employer         : # "Man AHL"
   uri              : # URL
   email            : "kchiu1997@gmail.org" 
   cv               : "CV"
