@@ -14,7 +14,7 @@ std::cout << "Hello World!\n";
 
 Hi! I'm a Python/C++ quantitative developer with interests spanning across software engineering, mathematics and finance. I hold a bachelors degree in Mathematics from Warwick University and a masters degree in Mathematical and Computational Finance from Oxford University.
 
-Stay tuned to hear occasional rants about how Python is so much easier to develop in compared to C++, or how much faster C++ is compared to Python (looking at you, GIL!). I'll probably sporadically (or rather, stochastically) throw in a volatility related topic as well.
+Stay tuned for occasional rants about the joys and frustrations of Python versus C++. You'll hear about how Python makes development a breeze compared to C++, and how C++ runs circles around Python in terms of speed (thanks, GIL!). And don't be surprised if I occasionally (or should I say stochastically) dive into a topic related to volatility.
 
 A short Python puzzle to get us acquainted:
 ```python
@@ -25,4 +25,7 @@ print(g(1))
 ```
 What should we expect from this excerpt? 
 
+---
+
+<sub><sup>Please note: The opinions and views expressed on this page are solely my own and do not reflect those of my employer.</sup></sub>
 
