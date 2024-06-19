@@ -25,7 +25,5 @@ print(g(1))
 ```
 What should we expect from this excerpt? 
 
----
-
-<sub><sup>Please note: The opinions and views expressed on this page are solely my own and do not reflect those of my employer.</sup></sub>
+<sub><sup>Please note: The opinions and views expressed on this website are solely my own and do not reflect those of my employer.</sup></sub>
 
