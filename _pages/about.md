@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+---
 
 Hi! I'm a Python/C++ quantitative developer with interests spanning across software engineering, mathematics and finance. I completed a bachelors degree in Mathematics from Warwick University and a masters degree in Mathematical and Computational Finance from Oxford University.
 
