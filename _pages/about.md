@@ -11,7 +11,7 @@ redirect_from:
 
 Hi! I'm a Python/C++ quantitative developer with interests spanning across software engineering, mathematics and finance. I completed a bachelors degree in Mathematics at Warwick University and a masters degree in Mathematical and Computational Finance at Oxford University.
 
-Stay tuned for occasional rants about the joys and frustrations of using Python and C++. You'll hear about how Python makes development a breeze, or how C++ usually runs circles around Python in terms of speed (thanks, GIL!). And don't be surprised if I occasionally (or stochastically) dive into a topic related to volatility.
+Stay tuned for the occasional discussion about the joys and frustrations of using Python and C++. You'll hear about how Python makes development a breeze, or how C++ usually runs circles around Python in terms of speed (thanks, GIL!). And don't be surprised if I occasionally (or stochastically) dive into a topic related to volatility.
 
 A short Python puzzle to get us acquainted:
 ```python
