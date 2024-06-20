@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About"
+title                    : "KYLChiu Website"
 title_separator          : "-"
 name                     : &name "Kelvin Chiu"
 description              : &description ""
-url                      : https://kylchiu.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://kylchiu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kylchiu/kylchiu.github.io"
 
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Kelvin Chiu"
   pronouns         : # "he/him" # example: "she/her"  
-  bio              : "Quant Developer"
+  bio              : # "Quant Developer"
   employer         : # "Man AHL"
   uri              : # URL
   email            : "kchiu1997@gmail.com" 
