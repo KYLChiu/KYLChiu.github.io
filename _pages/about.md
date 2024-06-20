@@ -27,4 +27,4 @@ What should we expect the output of this code to be?
 
 ---
 
-Don't hesistate to reach out if you find any of this interesting!
+Don't hesitate to reach out if you find any of this interesting!
