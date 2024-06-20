@@ -1,6 +1,7 @@
 ---
+layout: archive
 permalink: /
-title: "Hello World!"
+title: "Hello World"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,8 +17,8 @@ A short Python puzzle to get us acquainted:
 ```python
 f = lambda i: i
 g = f
+print(g(1))
 g = lambda x: g(x) + 1
 print(g(1))
 ```
-What should we expect to happen when running this excerpt of code? 
-
+What should we expect the output of this code to be? 
