@@ -1,6 +1,6 @@
 ---
 title: "Project Euler"
-excerpt: "a set of mathematical programming problems."
+excerpt: "solutions to a set of mathematical programming problems."
 collection: portfolio
 link: "https://github.com/KYLChiu/Project-Euler"
 ---

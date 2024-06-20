@@ -11,6 +11,7 @@ author_profile: true
 
 Check out some stuff I've been working on!
 {% for post in site.portfolio %}
+  ---
   {% include archive-single.html %}
 {% endfor %}
 
