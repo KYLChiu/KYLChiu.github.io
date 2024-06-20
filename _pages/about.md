@@ -19,7 +19,5 @@ g = f
 g = lambda x: g(x) + 1
 print(g(1))
 ```
-What should we expect from this excerpt? 
-
-<sub><sup>Please note: The opinions and views expressed on this website are solely my own and do not reflect those of my employer.</sup></sub>
+What should we expect to happen when running this excerpt of code? 
 
