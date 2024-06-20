@@ -1,6 +1,6 @@
 ---
 title: "MS-Arg"
-excerpt: "investigating the dynamics of makespan scheduling under argumentation."
+excerpt: "an investigation into the dynamics of makespan scheduling under argumentation."
 collection: portfolio
 link: "https://github.com/KYLChiu/MS-Arg"
 ---
