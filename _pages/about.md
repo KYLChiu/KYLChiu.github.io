@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Hello World"
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,9 +9,13 @@ redirect_from:
 ---
 ---
 
-Hey! I'm a Python/C++ quantitative developer fascinated by the intersection of software engineering, mathematics, and finance. I earned my bachelor's degree in Mathematics from Warwick University and went on to complete a master's in Mathematical and Computational Finance at Oxford University. These studies helped shaped my understanding of how technology and quantitative analysis come together in practical ways, and I'm enthusiastic about applying these skills to solve real-world challenges in both the finance and tech sectors. 
+Hi! I'm a developer with a keen interest in the confluence of software engineering, mathematics, finance, and am particularly passionate about delving into solutions for problems within these domains. 
 
-Welcome to my personal page, where I showcase my portfolio and share occasional musings on the joys and challenges of Python and C++. Explore how Python simplifies development effortlessly, while C++ often outpaces Python in terms of speed (thanks, GIL!). Expect periodic (or rather, stochastic) dives into topics related to volatility. Stay tuned for updates!
+Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior perfoqrmance of C++, often outpacing Python due to the Global Interpreter Lock (GIL). Anticipate periodic, in-depth explorations into topics such as volatility. Stay tuned for updates!
+
+```cpp
+std::cout << "Hello World!\n";
+``` 
 
 ---
 
