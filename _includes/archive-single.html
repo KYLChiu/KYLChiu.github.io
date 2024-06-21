@@ -12,6 +12,6 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <a href="{{ base_path }}{{ post.url }}"><pre><code>{{ title | strip }}</code></pre></a>
-    <pre>   <i class="fa fa-fw fa-angle-double-right icon-pad-right"></i>{% if excerpt %} {{ excerpt }}{% endif %}</pre>
+       <i class="fa fa-fw fa-angle-double-right icon-pad-right"></i>{% if excerpt %} {{ excerpt }}{% endif %}
   </article>
 </div>
