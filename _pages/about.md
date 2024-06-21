@@ -9,7 +9,7 @@ redirect_from:
 ---
 ---
 
-Hi! I'm a developer with a keen interest in the confluence of software engineering, mathematics, finance, and am particularly passionate about delving into solutions for problems within these domains. 
+Hi! I'm a developer with a keen interest in software engineering, mathematics, finance. I'm particularly passionate about delving into solutions for problems within the intersection of these domains. 
 
 Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior perfoqrmance of C++, often outpacing Python due to the Global Interpreter Lock (GIL). Anticipate periodic (or perhaps stochastic?) explorations into topics such as volatility. Don't hesitate to reach out if you find any of this interesting!
 
