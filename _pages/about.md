@@ -11,7 +11,7 @@ redirect_from:
 
 Hi! I'm a developer with a keen interest in the confluence of software engineering, mathematics, finance, and am particularly passionate about delving into solutions for problems within these domains. 
 
-Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior perfoqrmance of C++, often outpacing Python due to the Global Interpreter Lock (GIL). Anticipate periodic, in-depth explorations into topics such as volatility. Stay tuned for updates!
+Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior perfoqrmance of C++, often outpacing Python due to the Global Interpreter Lock (GIL). Anticipate periodic (or perhaps stochastic?) explorations into topics such as volatility. Don't hesitate to reach out if you find any of this interesting!
 
 ```cpp
 std::cout << "Hello World!\n";
@@ -28,7 +28,3 @@ g = lambda x: g(x) + 1
 print(g(1))
 ```
 What should we expect the output of this code to be? 
-
----
-
-Don't hesitate to reach out if you find any of this interesting!
