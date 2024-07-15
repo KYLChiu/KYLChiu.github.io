@@ -11,7 +11,7 @@ redirect_from:
 
 Hi! I'm a developer with a keen interest in software engineering, mathematics, finance. I'm particularly passionate about delving into solutions for problems within the intersection of these domains. 
 
-Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior performance of C++ (thanks to the Python GIL!). Anticipate periodic (or perhaps stochastic?) explorations into topics such as volatility. Don't hesitate to reach out if you find any of this interesting!
+Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior performance of C++ (thanks to the Python GIL). Don't hesitate to reach out if you find any of this interesting!
 
 ---
 
