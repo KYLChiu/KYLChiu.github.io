@@ -4,7 +4,7 @@ title: Sporkfish
 description: A Python chess engine backed by recursive game theory algorithms.
 img:
 importance: 1
-github: KYLChiu/sporkfish
+github: https://github.com/KYLChiu/sporkfish
 ---
 
 A Python chess engine built around minimax with alpha-beta pruning.
