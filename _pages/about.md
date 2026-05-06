@@ -8,16 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Software engineer with a strong interest in **high-performance computing**, **quantitative finance**, and **applied mathematics**. I build systems where correctness, performance, and elegance all matter.
-
----
-
-## What I Work On
-
-I spend most of my time at the intersection of low-latency systems and numerical methods — the kind of problems that demand both rigorous algorithmic thinking and careful implementation.
-
-**Languages:** C++20, Python, CUDA  
-**Interests:** Concurrent programming, Monte Carlo methods, game-tree search, derivative pricing
+Software engineer with interests in **high-performance computing**, **quantitative finance**, and **applied mathematics**.
 
 ---
 
@@ -27,7 +18,7 @@ A few things I've built:
 
 - **[Sporkfish](https://github.com/KYLChiu/sporkfish)** — A Python chess engine using recursive minimax with alpha-beta pruning, accelerated with Numba JIT.
 - **[EMCE](https://github.com/KYLChiu/ExoticMonteCarloEngine)** — A CUDA/C++ Monte Carlo framework for pricing exotic derivatives, with seamless GPU/CPU switching.
-- **[Kutils](https://github.com/KYLChiu/Kutils)** — A C++20 library with lock-free queues, thread pooling, and future chaining primitives.
+- **[MS-Arg](https://github.com/KYLChiu/MS-Arg)** — Research into makespan scheduling under computational argumentation (Imperial College UROP).
 
 See the full [Portfolio](/portfolio/) for more.
 

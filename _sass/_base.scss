@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: 700;
-  color: #0f172a;
+  color: #f1f5f9;
 }
 
 h1 {
@@ -145,10 +145,10 @@ figcaption > code,
 td > code {
   padding: 0.15rem 0.4rem;
   font-size: $type-size-6;
-  background: #eff6ff;
-  border: 1px solid #bfdbfe;
+  background: #1e293b;
+  border: 1px solid #334155;
   border-radius: 4px;
-  color: #1d4ed8;
+  color: #93c5fd;
   font-weight: 500;
 
   &:before, &:after {

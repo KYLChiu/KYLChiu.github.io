@@ -17,8 +17,8 @@
     height: 100vh;
     position: fixed;
     padding-top: $masthead-height;
-    border-right: 1px solid $border-color;
-    background: linear-gradient(180deg, #f8fafc 0%, #fff 100%);
+    border-right: 1px solid #1e293b;
+    background: linear-gradient(180deg, #0d1424 0%, #0f172a 100%);
   }
 
   @include breakpoint($large) {
@@ -127,7 +127,7 @@
   font-family: $sans-serif;
   font-size: $type-size-4;
   font-weight: 700;
-  color: #1e293b;
+  color: #f1f5f9;
   letter-spacing: -0.01em;
 }
 
@@ -149,7 +149,7 @@
 
 .author__bio {
   margin: 0;
-  color: #475569;
+  color: #94a3b8;
 
   @include breakpoint($large) {
     margin-top: 8px;
@@ -253,7 +253,7 @@
     display: block;
     margin-bottom: 4px;
     padding: 4px 8px;
-    color: #475569;
+    color: #94a3b8;
     font-size: $type-size-6;
     font-weight: 500;
     text-decoration: none;
@@ -262,8 +262,8 @@
 
     &:hover {
       text-decoration: none;
-      background: #eff6ff;
-      color: #1d4ed8;
+      background: #1e3a5f;
+      color: #93c5fd;
     }
   }
 }
