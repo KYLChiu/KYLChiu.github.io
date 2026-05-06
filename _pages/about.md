@@ -39,4 +39,3 @@ g = lambda x: g(x) + 1
 print(g(1))        # ?
 ```
 
-Think carefully before you run it.
