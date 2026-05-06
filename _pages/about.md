@@ -25,6 +25,8 @@ I enjoy working on problems that sit at the intersection of these areas: buildin
 
 I build trading systems.
 
+<div style="clear:both"></div>
+
 ---
 
 **A Python puzzle:**
