@@ -23,8 +23,6 @@ Hi, I'm Kelvin — a software engineer with interests in **high-performance comp
 
 I enjoy working on problems that sit at the intersection of these areas: building fast, numerically rigorous systems where both the algorithms and the implementation matter.
 
-I build trading systems.
-
 <div style="clear:both"></div>
 
 ---
