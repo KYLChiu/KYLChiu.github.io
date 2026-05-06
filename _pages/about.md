@@ -21,7 +21,7 @@ latest_posts:
 
 Hi, I'm Kelvin — a software engineer with interests in **high-performance computing**, **quantitative finance**, and **applied mathematics**.
 
-I work on algorithmic trading systems, where the problems tend to sit at the intersection of these areas — performance, correctness, and mathematical rigour all matter.
+I work on algorithmic trading systems, where the problems tend to sit at the intersection of these areas - performance, correctness, and mathematical rigour all matter.
 
 <div style="clear:both"></div>
 
