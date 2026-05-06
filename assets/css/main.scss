@@ -1,145 +1,39 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
+@charset "utf-8";
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
 
-@import "reset";
-@import "base";
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
 
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
-
-/* ============================================================
-   Custom overrides — flashy polish
-   ============================================================ */
-
-/* Gradient text for the page title on the home page */
-.page__title {
-  background: linear-gradient(135deg, #60a5fa, #a78bfa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* Dark background for main content area */
-body {
-  background-color: #0f172a;
-}
-
-#main {
-  background-color: #0f172a;
-}
-
-/* Archive / portfolio cards */
-.archive__item {
-  border-radius: 10px;
-  border: 1px solid #1e293b;
-  padding: 1.2em 1.4em;
-  margin-bottom: 1em;
-  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
-  background: #0d1424;
-
-  &:hover {
-    box-shadow: 0 8px 32px rgba(96, 165, 250, 0.15);
-    transform: translateY(-2px);
-    border-color: #3b82f6;
-  }
-}
-
-.archive__item-title {
-  font-size: $type-size-4;
-  font-weight: 700;
-  color: #e2e8f0;
-
-  a {
-    color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      color: #93c5fd;
-    }
-  }
-}
-
-.archive__item-excerpt {
-  color: #94a3b8;
-  font-size: $type-size-6;
-  line-height: 1.6;
-}
-
-/* Syntax highlighting block */
-.highlight {
-  border-radius: 10px;
-  border: 1px solid #1e293b;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
-  background: #0d1117;
-}
-
-/* Horizontal rule flash */
-hr {
-  border-top: 2px solid;
-  border-image: linear-gradient(90deg, #3b82f6, #7c3aed, #3b82f6) 1;
-  opacity: 0.35;
-}
-
-/* Footer cleanup */
-.page__footer {
-  background: #080e1a;
-  color: rgba(255,255,255,0.4);
-  border-top: 1px solid #1e293b;
-
-  a {
-    color: rgba(255,255,255,0.55);
-
-    &:hover {
-      color: #93c5fd;
-      text-decoration: none;
-    }
-  }
-
-  .fas, .fab, .far, .fal {
-    color: rgba(255,255,255,0.4);
-  }
-}
-
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Author urls border in dark mode */
-.author__urls {
-  background: #0d1424 !important;
-  border-color: #1e293b !important;
-}
+// Other specialized styles
+@use "distill";
+@use "cv";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+@use "font-awesome/fontawesome";
+@use "font-awesome/brands";
+@use "font-awesome/solid";
+@use "font-awesome/regular";

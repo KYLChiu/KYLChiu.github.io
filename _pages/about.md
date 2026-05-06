@@ -1,41 +1,40 @@
 ---
-layout: archive
+layout: about
+title: about
 permalink: /
-title: "Kelvin Chiu"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: Software Engineer
+
+profile:
+  align: right
+  image: prof_pic.png
+  image_circular: true
+
+selected_papers: false
+social: true
+
+announcements:
+  enabled: false
+
+latest_posts:
+  enabled: false
 ---
 
-Software engineer with interests in **high-performance computing**, **quantitative finance**, and **applied mathematics**.
+Hi, I'm Kelvin — a software engineer with interests in **high-performance computing**, **quantitative finance**, and **applied mathematics**.
+
+I enjoy working on problems that sit at the intersection of these areas: building fast, numerically rigorous systems where both the algorithms and the implementation matter.
+
+My work spans low-latency C++ systems, GPU-accelerated Monte Carlo methods, and the occasional chess engine.
 
 ---
 
-## Projects
-
-A few things I've built:
-
-- **[Sporkfish](https://github.com/KYLChiu/sporkfish)** — A Python chess engine using recursive minimax with alpha-beta pruning, accelerated with Numba JIT.
-- **[EMCE](https://github.com/KYLChiu/ExoticMonteCarloEngine)** — A CUDA/C++ Monte Carlo framework for pricing exotic derivatives, with seamless GPU/CPU switching.
-- **[MS-Arg](https://github.com/KYLChiu/MS-Arg)** — Research into makespan scheduling under computational argumentation (Imperial College UROP).
-
-See the full [Portfolio](/portfolio/) for more.
-
----
-
-## A Python Puzzle
+**A Python puzzle:**
 
 ```python
 f = lambda i: i
 g = f
-print(g(1))        # what does this print?
+print(g(1))        # ?
 g = lambda x: g(x) + 1
-print(g(1))        # and this?
+print(g(1))        # ?
 ```
 
 Think carefully before you run it.
-
----
-
-Feel free to reach out at [kchiu1997@gmail.com](mailto:kchiu1997@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/kelvin-chiu) / [GitHub](https://github.com/kylchiu).
