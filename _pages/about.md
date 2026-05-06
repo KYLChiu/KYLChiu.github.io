@@ -1,26 +1,50 @@
 ---
 layout: archive
 permalink: /
-title: "Welcome!"
+title: "Kelvin Chiu"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
----
 
-Hi! I'm a developer with a keen interest in software engineering, mathematics, finance. I'm particularly passionate about delving into solutions for problems within the intersection of these domains. 
-
-Welcome to my personal page, a curated space where I host my portfolio and occasionally muse on the intricacies and nuances of Python and C++. Uncover the elegance of Python's development simplicity and the superior performance of C++ (thanks to the Python GIL). Don't hesitate to reach out if you find any of this interesting!
+Software engineer with a strong interest in **high-performance computing**, **quantitative finance**, and **applied mathematics**. I build systems where correctness, performance, and elegance all matter.
 
 ---
 
-A short Python puzzle to get us acquainted:
+## What I Work On
+
+I spend most of my time at the intersection of low-latency systems and numerical methods — the kind of problems that demand both rigorous algorithmic thinking and careful implementation.
+
+**Languages:** C++20, Python, CUDA  
+**Interests:** Concurrent programming, Monte Carlo methods, game-tree search, derivative pricing
+
+---
+
+## Projects
+
+A few things I've built:
+
+- **[Sporkfish](https://github.com/KYLChiu/sporkfish)** — A Python chess engine using recursive minimax with alpha-beta pruning, accelerated with Numba JIT.
+- **[EMCE](https://github.com/KYLChiu/ExoticMonteCarloEngine)** — A CUDA/C++ Monte Carlo framework for pricing exotic derivatives, with seamless GPU/CPU switching.
+- **[Kutils](https://github.com/KYLChiu/Kutils)** — A C++20 library with lock-free queues, thread pooling, and future chaining primitives.
+
+See the full [Portfolio](/portfolio/) for more.
+
+---
+
+## A Python Puzzle
+
 ```python
 f = lambda i: i
 g = f
-print(g(1))
+print(g(1))        # what does this print?
 g = lambda x: g(x) + 1
-print(g(1))
+print(g(1))        # and this?
 ```
-What should we expect the output of this code to be? 
+
+Think carefully before you run it.
+
+---
+
+Feel free to reach out at [kchiu1997@gmail.com](mailto:kchiu1997@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/kelvin-chiu) / [GitHub](https://github.com/kylchiu).

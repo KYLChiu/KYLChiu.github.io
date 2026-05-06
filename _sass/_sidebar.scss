@@ -15,9 +15,10 @@
 
   @media screen and (min-width: $sidebar-screen-min-width) {
     height: 100vh;
-    //overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
+    border-right: 1px solid $border-color;
+    background: linear-gradient(180deg, #f8fafc 0%, #fff 100%);
   }
 
   @include breakpoint($large) {
@@ -80,8 +81,6 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -92,10 +91,11 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.18);
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 3px solid $primary-color;
     }
   }
 }
@@ -119,13 +119,16 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-bottom: 6px;
   }
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
+  font-weight: 700;
+  color: #1e293b;
+  letter-spacing: -0.01em;
 }
 
 .sidebar .author__desktop {
@@ -146,10 +149,13 @@
 
 .author__bio {
   margin: 0;
+  color: #475569;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: $type-size-6;
+    line-height: 1.6;
   }
 }
 
@@ -245,16 +251,19 @@
 
   a {
     display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
-    font-size: $type-size-5;
+    margin-bottom: 4px;
+    padding: 4px 8px;
+    color: #475569;
+    font-size: $type-size-6;
+    font-weight: 500;
     text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.15s ease, color 0.15s ease;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      background: #eff6ff;
+      color: #1d4ed8;
     }
   }
 }

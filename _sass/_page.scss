@@ -36,7 +36,10 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.1;
+  color: #0f172a;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -51,12 +54,20 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid $primary-color;
+    color: #0f172a;
+    font-weight: 700;
+  }
+
+  h3 {
+    color: #1e293b;
+    font-weight: 600;
   }
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.7;
   }
 
   /* paragraph indents */
